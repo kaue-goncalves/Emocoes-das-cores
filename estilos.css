@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Kaue;
+    src: url
+}
+
+
+:root {
+    --cor-fundo: #0b3eca;
+    --cor-titulo:#b3cde0; 
+    --cor-link:	#eeeeee;
+    --cor-paragrafo : 
+    --fonte: Kaue;
+}
+
+
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+h1 {
+
+    color: var(--cor-titulo);
+    text-align: center
+}
+
+
+img {
+    width: 600px;
+}
