@@ -5,29 +5,29 @@
 
 
 :root {
-    --cor-fundo: #0b3eca;
+    --cor-fundo: #1840ac;
     --cor-titulo:#b3cde0; 
     --cor-link:	#eeeeee;
     --cor-paragrafo : 
     --fonte: Kaue;
+    --cor-titulo3 : #2894D4;
 }
-
 
 
 body{
     background-color: var(--cor-fundo);
     font-family: var(--fonte);
-    width: 500px;
+    width: 700px;
     max-width: 100%;
     margin: 0 auto;
     /* margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto; */
+    color: #6280FB;
 }
 
 h1 {
-
     color: var(--cor-titulo);
     text-align: center
 }
@@ -35,4 +35,17 @@ h1 {
 
 img {
     width: 600px;
+}
+
+
+h3 {
+    color: var(--cor-titulo3)    
+}
+
+h2 {
+    color: #F0261B;
+}
+
+h4 {
+    color: #DBC418;
 }
